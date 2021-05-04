@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
 
 body{margin: 0;background: rgba(255, 255, 255, 1.0)}
+.hero-image {
+  background-image: url("img/dropsandbits.jpg");
+  background-color: rgba(255, 255, 255, 1.0);
+  /*height: 500px; */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 a{text-decoration:none}
 div{-webkit-text-size-adjust:none}
 
@@ -13,92 +21,84 @@ div{-webkit-text-size-adjust:none}
 @-o-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
 @keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
 
-.dropsandbits{display:block;position:relative;width:100%;height:100vh;;overflow:hidden;margin:0;background-color:rgba(40,40,40,1.0)}
+.dropsandbits{display:block;position:relative;width:100%;height:100vh;;overflow:hidden;margin:0;}
+.dropsandbits .bits{display:block;height:100%;position:relative; margin:auto;}
+.dropsandbits .avatar{background-color:rgba(255,255,255,0.0);position:absolute;margin:0;}
+
+.dropsandbits .minibio{height:auto;position:absolute;;margin:0;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;color:rgba(80,80,80,1.0);text-align:center;line-height:24.0px;}
+.dropsandbits .minibio span{font-weight:600;font-style:normal;text-align:center;}
+.dropsandbits .minibio a{padding-left:0px;padding-right:0px;border-radius:12px;background-color:rgba(80,80,80,0.0);color:rgba(40,40,40,1.0);font-weight:800;text-align:center;text-decoration:none;}
+.dropsandbits .minibio a:hover{background-color:rgba(120,20,120,0.0);color:rgba(120,20,120,1.0);text-align:center;}
+.dropsandbits .minibio .button{background-color:rgba(40,40,40,1.0);position:relative;width:240px;left:0px;border:none;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;padding-top:12px;padding-bottom:12px;margin-top:24px;margin-bottom:16px;display:inline-block;cursor:pointer;border-radius:30px;text-align:center;text-decoration:none;color:rgba(255,255,255,1.0)}
+.dropsandbits .minibio .button:hover{background-color:rgba(120,20,120,1.0);color:rgba(255,255,255,1.0);text-decoration:none}
+.dropsandbits .minibio .button .fndMobile{height:11px;width:33px;margin-right:8px;top:0;position:relative;margin:0;left:0}
+.dropsandbits .minibio .secondary-button{background-color:rgba(0,0,0,0.0);border: 2px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+
+.dropsandbits .iconrow{background-color:rgba(255,255,255,0.0);position:absolute;margin:0px}
+
+.dropsandbits .iconrow .ico-instagram{background-color:rgba(255,255,255,0.0);top:0px;position:relative;margin:0;}
+.dropsandbits .iconrow .ico-instagram .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-twitter{background-color:rgba(255,255,255,0.0);top:0px;position:relative;margin:0;}
+.dropsandbits .iconrow .ico-twitter .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-pinterest{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;}
+.dropsandbits .iconrow .ico-pinterest .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-bmac{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;}
+.dropsandbits .iconrow .ico-bmac .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
 
 @media screen and (max-width:639px){
+
   .dropsandbits{min-width:320px;min-height:580px}
-  .dropsandbits .bits{display:block;width:320px;height:100%;position:relative; margin:auto}
-
-  .dropsandbits .avatar{background-color:rgba(255,255,255,0.0);top:20px;height:160px;width:160px;position:absolute; margin:0;left:80px}
-
-  .dropsandbits .minibio{background-color:rgba(255,255,255,0.0);top:198px;height:auto;width:240px;position:absolute;margin:0;left:40px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;color:rgba(128,128,128,1.0);text-align:center;line-height:24.0px}
-  .dropsandbits .minibio span{background-color:rgba(255,255,255,0.0);font-weight:600;font-style:normal;font-size:18.0px;text-align:center;}
-  .dropsandbits .minibio a{background-color:rgba(255,255,255,0.0);color:rgba(240,40,130,1.0);text-align: center;text-decoration: none;}
-  .dropsandbits .minibio .button{background-color:rgba(240,40,130,1.0);border: none;position:relative;width: 260px;left:-10px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 16px;margin-bottom: 16px;text-align: center;text-decoration: none;color:rgba(255,255,255,1.0);display: inline-block;cursor: pointer;border-radius: 24px;}
-  .dropsandbits .minibio .button .fndMobile{background-color:rgba(240,40,130,1.0);top:0;height:11px;width:33px;position:relative;margin:0;left:0;margin-right:8px}
-  .dropsandbits .minibio .secondary-button{background-color:rgba(255,255,255,0.0);color:rgba(0,0,0,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;text-align: center;text-decoration: none;}
-
-  .dropsandbits .iconrow{background-color:rgba(255,255,255,0.0);top:580px;height:32px;width:200px;position:absolute;margin:0;left:50px}
-
-  .dropsandbits .iconrow .ico-instagram{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:0px;position:absolute;margin:0;left:0}
-  .dropsandbits .iconrow .ico-instagram .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-twitter{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:absolute;margin:0;left:60px}
-  .dropsandbits .iconrow .ico-twitter .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-pinterest{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:absolute;margin:0;left:120px}
-  .dropsandbits .iconrow .ico-pinterest .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-bmac{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:absolute;margin:0;left:180px}
-  .dropsandbits .iconrow .ico-bmac .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
+  .dropsandbits .bits{width: 320px}
+  .dropsandbits .avatar{top:16px;height:160px;width:160px;left:80px}
+  .dropsandbits .minibio{top:198px;width:240px;left:40px;font-size:16.0px}
+  .dropsandbits .minibio span{font-size:18.0px}
+  .dropsandbits .iconrow{top:610px;height:32px;width:212px;left:54px}
+  .dropsandbits .iconrow .ico-instagram{height:0px;width:0px;left:0px}
+  .dropsandbits .iconrow .ico-instagram .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-twitter{height:0px;width:0px;left:60px}
+  .dropsandbits .iconrow .ico-twitter .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-pinterest{height:0px;width:0px;left:120px}
+  .dropsandbits .iconrow .ico-pinterest .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:180px}
+  .dropsandbits .iconrow .ico-bmac .bitmap{height:32px;width:32px}
 
 }
 
 @media screen and (min-width:640px) and (max-width:1439px){
   .dropsandbits{min-width:664px;min-height:720px}
-  .dropsandbits .bits{display:block;width:640px;height:100%;position:relative;margin:auto}
-
-  .dropsandbits .avatar{background-color:rgba(255,255,255,0.0); top:40px;height:256px;width:256px;position:absolute;margin:0;left:192px}
-
-  .dropsandbits .minibio{background-color:rgba(255,255,255,0.0);top:340px;height:auto;width:380px;position:absolute;margin:0;left:130px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;color:rgba(128,128,128,1.0);text-align:center;line-height:24.0px}
-  .dropsandbits .minibio span{background-color:rgba(255,255,255,0.0);font-weight:600;font-style:normal;font-size:18.0px;text-align:center;}
-  .dropsandbits .minibio a{background-color:rgba(255,255,255,0.0);color:rgba(240,40,130,1.0);text-align: center;text-decoration: none;}
-  .dropsandbits .minibio .button{background-color:rgba(240,40,130,1.0);position:relative;border: none;width: 300px;left: 0px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;ont-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 24px;margin-bottom: 16px;text-align: center;text-decoration: none;color:rgba(255,255,255,1.0);display: inline-block;cursor: pointer;border-radius: 30px;}
-  .dropsandbits .minibio .button .fndMobile{background-color:rgba(240,40,130,1.0);top:0;height:16px;width:48px;position:relative;margin:0;left:0;margin-right:16px}
-  .dropsandbits .minibio .secondary-button{background-color:rgba(255,255,255,0.0);color:rgba(0,0,0,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;text-align: center;text-decoration: none;}
-
-  .dropsandbits .iconrow{background-color:rgba(255,255,255,0.0);top:660px;height:32px;width:312px;position:absolute;margin:0px;left:180px}
-
-  .dropsandbits .iconrow .ico-instagram{background-color:rgba(255,255,255,0.0);top:0px;height:32px;width:32px;position:absolute;margin:0;left:0px}
-  .dropsandbits .iconrow .ico-instagram .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-twitter{background-color:rgba(255,255,255,0.0);top:0px;height:32px;width:32px;position:absolute;margin:0;left:80px}
-  .dropsandbits .iconrow .ico-twitter .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-pinterest{background-color:rgba(255,255,255,0.0);top:0px;height:32px;width:32px;position:absolute;margin:0;left:160px}
-  .dropsandbits .iconrow .ico-pinterest .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-bmac{background-color:rgba(255,255,255,0.0);top:0px;height:32px;width:32px;position:absolute;margin:0;left:240px}
-  .dropsandbits .iconrow .ico-bmac .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:32px;width:32px;position:relative;margin:0;left:0}
+  .dropsandbits .bits{width:640px}
+  .dropsandbits .avatar{top:40px;height:240px;width:240px;left:200px}
+  .dropsandbits .minibio{top:320px;width:240px;left:200px;font-size:16.0px}
+  .dropsandbits .minibio span{font-size:18.0px}
+  .dropsandbits .iconrow{top:730px;height:32px;width:212px;left:214px}
+  .dropsandbits .iconrow .ico-instagram{height:0px;width:0px;left:0px}
+  .dropsandbits .iconrow .ico-instagram .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-twitter{height:0px;width:0px;left:60px}
+  .dropsandbits .iconrow .ico-twitter .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-pinterest{height:0px;width:0px;left:120px}
+  .dropsandbits .iconrow .ico-pinterest .bitmap{height:32px;width:32px}
+  .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:180px}
+  .dropsandbits .iconrow .ico-bmac .bitmap{height:32px;width:32px}
 
 }
 
 @media screen and (min-width:1440px){
+
   .dropsandbits{min-width:1440px;min-height:720px}
-  .dropsandbits .bits{display:block;width: 1440px;height:100%;position:relative;margin:auto}
+  .dropsandbits .bits{width:1440px}
+  .dropsandbits .avatar{top:56px;height:260px;width:260px;left:590px}
+  .dropsandbits .minibio{top:370px;width:440px;left:500px;font-size:18.0px}
+  .dropsandbits .minibio span{font-size:24.0px}
+  .dropsandbits .iconrow{top:730px;height:48px;width:282px;left:580px}
+  .dropsandbits .iconrow .ico-instagram{height:0px;width:0px;left:0px}
+  .dropsandbits .iconrow .ico-instagram .bitmap{height:48px;width:48px}
+  .dropsandbits .iconrow .ico-twitter{height:0px;width:0px;left:78px}
+  .dropsandbits .iconrow .ico-twitter .bitmap{height:48px;width:48px}
+  .dropsandbits .iconrow .ico-pinterest{height:0px;width:0px;left:156px}
+  .dropsandbits .iconrow .ico-pinterest .bitmap{height:48px;width:48px}
+  .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:234px}
+  .dropsandbits .iconrow .ico-bmac .bitmap{height:48px;width:48px}
 
-  .dropsandbits .avatar{background-color:rgba(255,255,255,0.0);top:56px;height:256px;width:256px;position:absolute;margin:0;left:592px}
-
-  .dropsandbits .minibio{background-color:rgba(255,255,255,0.0);top:370px;height:auto;width:440px;position:absolute;margin:0;left:500px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:18.0px;color:rgba(128,128,128,1.0);text-align:center;line-height:24.0px}
-  .dropsandbits .minibio span{background-color:rgba(255,255,255,0.0);font-weight:600;font-style:normal;font-size:24.0px;text-align:center;}
-  .dropsandbits .minibio a{background-color:rgba(255,255,255,0.0);color:rgba(240,40,130,1.0);text-align: center;text-decoration: none;}
-  .dropsandbits .minibio .button{background-color:rgba(240,40,130,1.0);border: none;width: 320px;left: 0px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:18.0px;padding-top: 16px;padding-bottom: 16px;margin-top: 24px;margin-bottom: 16px;text-align: center; text-decoration: none;color:rgba(255,255,255,1.0);display: inline-block;cursor: pointer;border-radius: 30px;}
-  .dropsandbits .minibio .button .fndMobile{background-color:rgba(240,40,130,1.0);top:0;height:16px;width:48px;position:relative;margin:0;left:0;margin-right:16px;}
-  .dropsandbits .minibio .secondary-button{background-color:rgba(255,255,255,0.0);color:rgba(0,0,0,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;text-align: center;text-decoration: none;}
-
-
-  .dropsandbits .iconrow{background-color:rgba(255,255,255,0.0);top:280px;height:48px;width:340px;position:relative;margin:0;left:550px}
-
-  .dropsandbits .iconrow .ico-instagram{background-color:rgba(255,255,255,0.0);top:432px;height:48px;width:48px;position:absolute;margin:0;left:0px}
-  .dropsandbits .iconrow .ico-instagram .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:48px;width:48px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-twitter{background-color:rgba(255,255,255,0.0);top:432px;height:48px;width:48px;position:absolute;margin:0;left:100px}
-  .dropsandbits .iconrow .ico-twitter .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:48px;width:48px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-pinterest{background-color:rgba(255,255,255,0.0);top:432px;height:48px;width:48px;position:absolute;margin:0;left:200px}
-  .dropsandbits .iconrow .ico-pinterest .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:48px;width:48px;position:relative;margin:0;left:0}
-
-  .dropsandbits .iconrow .ico-bmac{background-color:rgba(255,255,255,0.0);top:432px;height:48px;width:48px;position:absolute;margin:0;left:300px}
-  .dropsandbits .iconrow .ico-bmac .bitmap{background-color:rgba(255,255,255,0.0);top:0;height:48px;width:48px;position:relative;margin:0;left:0}
+  .dropsandbits .minibio .button{width:300px;padding-top:20px;padding-bottom:20px;border-radius:40px}
 
 }

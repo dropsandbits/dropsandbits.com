@@ -27,23 +27,22 @@ div{-webkit-text-size-adjust:none}
 
 .dropsandbits .minibio{height:auto;position:absolute;;margin:0;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;color:rgba(80,80,80,1.0);text-align:center;line-height:24.0px;}
 .dropsandbits .minibio span{font-weight:600;font-style:normal;text-align:center;}
-.dropsandbits .minibio a{padding-left:0px;padding-right:0px;border-radius:12px;background-color:rgba(80,80,80,0.0);color:rgba(40,40,40,1.0);font-weight:800;text-align:center;text-decoration:none;}
-.dropsandbits .minibio a:hover{background-color:rgba(120,20,120,0.0);color:rgba(120,20,120,1.0);text-align:center;}
-.dropsandbits .minibio .button{background-color:rgba(40,40,40,1.0);position:relative;width:240px;left:0px;border:none;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;padding-top:12px;padding-bottom:12px;margin-top:24px;margin-bottom:16px;display:inline-block;cursor:pointer;border-radius:30px;text-align:center;text-decoration:none;color:rgba(255,255,255,1.0)}
+.dropsandbits .minibio a{color:rgba(40,40,40,1.0);font-weight:800;text-align:center;text-decoration:none;}
+.dropsandbits .minibio a:hover{color:rgba(120,20,120,1.0);text-align:center;}
+.dropsandbits .minibio .button{background-color:rgba(40,40,40,1.0);color:rgba(255,255,255,1.0);position:relative;width:240px;left:0px;border:none;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;font-size:16.0px;padding-top:12px;padding-bottom:12px;margin-top:24px;margin-bottom:16px;display:inline-block;cursor:pointer;border-radius:30px;text-align:center}
 .dropsandbits .minibio .button:hover{background-color:rgba(120,20,120,1.0);color:rgba(255,255,255,1.0);text-decoration:none}
 .dropsandbits .minibio .button .fndMobile{height:11px;width:33px;margin-right:8px;top:0;position:relative;margin:0;left:0}
-.dropsandbits .minibio .secondary-button{background-color:rgba(0,0,0,0.0);border: 2px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
 
-.dropsandbits .iconrow{background-color:rgba(255,255,255,0.0);position:absolute;margin:0px}
+.dropsandbits .iconrow{position:absolute;margin:0px;left:0px}
 
-.dropsandbits .iconrow .ico-instagram{background-color:rgba(255,255,255,0.0);top:0px;position:relative;margin:0;}
-.dropsandbits .iconrow .ico-instagram .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
-.dropsandbits .iconrow .ico-twitter{background-color:rgba(255,255,255,0.0);top:0px;position:relative;margin:0;}
-.dropsandbits .iconrow .ico-twitter .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
-.dropsandbits .iconrow .ico-pinterest{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;}
-.dropsandbits .iconrow .ico-pinterest .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
-.dropsandbits .iconrow .ico-bmac{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;}
-.dropsandbits .iconrow .ico-bmac .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-instagram{top:0px;position:absolute;margin:0;}
+.dropsandbits .iconrow .ico-instagram .bitmap{top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-twitter{top:0px;position:absolute;margin:0;}
+.dropsandbits .iconrow .ico-twitter .bitmap{top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-pinterest{top:0;position:absolute;margin:0;}
+.dropsandbits .iconrow .ico-pinterest .bitmap{top:0;position:relative;margin:0;left:0}
+.dropsandbits .iconrow .ico-bmac{top:0;position:absolute;margin:0;}
+.dropsandbits .iconrow .ico-bmac .bitmap{top:0;position:relative;margin:0;left:0}
 
 @media screen and (max-width:639px){
 
@@ -52,14 +51,14 @@ div{-webkit-text-size-adjust:none}
   .dropsandbits .avatar{top:16px;height:160px;width:160px;left:80px}
   .dropsandbits .minibio{top:198px;width:240px;left:40px;font-size:16.0px}
   .dropsandbits .minibio span{font-size:18.0px}
-  .dropsandbits .iconrow{top:610px;height:32px;width:212px;left:54px}
-  .dropsandbits .iconrow .ico-instagram{height:0px;width:0px;left:0px}
+  .dropsandbits .iconrow{top:610px;height:32px;width:208px}
+  .dropsandbits .iconrow .ico-instagram{height:32px;width:32px;left:56px}
   .dropsandbits .iconrow .ico-instagram .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-twitter{height:0px;width:0px;left:60px}
+  .dropsandbits .iconrow .ico-twitter{height:32px;width:32px;left:112px}
   .dropsandbits .iconrow .ico-twitter .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-pinterest{height:0px;width:0px;left:120px}
+  .dropsandbits .iconrow .ico-pinterest{height:32px;width:32px;left:168px}
   .dropsandbits .iconrow .ico-pinterest .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:180px}
+  .dropsandbits .iconrow .ico-bmac{height:32px;width:32px;left:224px}
   .dropsandbits .iconrow .ico-bmac .bitmap{height:32px;width:32px}
 
 }
@@ -67,17 +66,17 @@ div{-webkit-text-size-adjust:none}
 @media screen and (min-width:640px) and (max-width:1439px){
   .dropsandbits{min-width:664px;min-height:720px}
   .dropsandbits .bits{width:640px}
-  .dropsandbits .avatar{top:40px;height:240px;width:240px;left:200px}
-  .dropsandbits .minibio{top:320px;width:240px;left:200px;font-size:16.0px}
+  .dropsandbits .avatar{top:40px;height:230px;width:230px;left:235px}
+  .dropsandbits .minibio{top:320px;width:240px;left:230px;font-size:16.0px}
   .dropsandbits .minibio span{font-size:18.0px}
-  .dropsandbits .iconrow{top:730px;height:32px;width:212px;left:214px}
-  .dropsandbits .iconrow .ico-instagram{height:0px;width:0px;left:0px}
+  .dropsandbits .iconrow{top:730px;height:32px;width:312px;}
+  .dropsandbits .iconrow .ico-instagram{height:32px;width:32px;left:246px}
   .dropsandbits .iconrow .ico-instagram .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-twitter{height:0px;width:0px;left:60px}
+  .dropsandbits .iconrow .ico-twitter{height:32px;width:32px;left:302px}
   .dropsandbits .iconrow .ico-twitter .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-pinterest{height:0px;width:0px;left:120px}
+  .dropsandbits .iconrow .ico-pinterest{height:32px;width:32px;left:358px}
   .dropsandbits .iconrow .ico-pinterest .bitmap{height:32px;width:32px}
-  .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:180px}
+  .dropsandbits .iconrow .ico-bmac{height:32px;width:32px;left:414px}
   .dropsandbits .iconrow .ico-bmac .bitmap{height:32px;width:32px}
 
 }
@@ -86,7 +85,7 @@ div{-webkit-text-size-adjust:none}
 
   .dropsandbits{min-width:1440px;min-height:720px}
   .dropsandbits .bits{width:1440px}
-  .dropsandbits .avatar{top:56px;height:260px;width:260px;left:590px}
+  .dropsandbits .avatar{top:56px;height:256px;width:256px;left:592px}
   .dropsandbits .minibio{top:370px;width:440px;left:500px;font-size:18.0px}
   .dropsandbits .minibio span{font-size:24.0px}
   .dropsandbits .iconrow{top:730px;height:48px;width:282px;left:580px}
@@ -98,7 +97,7 @@ div{-webkit-text-size-adjust:none}
   .dropsandbits .iconrow .ico-pinterest .bitmap{height:48px;width:48px}
   .dropsandbits .iconrow .ico-bmac{height:0px;width:0px;left:234px}
   .dropsandbits .iconrow .ico-bmac .bitmap{height:48px;width:48px}
-
+  /* Bigger button for desktop version only */
   .dropsandbits .minibio .button{width:300px;padding-top:20px;padding-bottom:20px;border-radius:40px}
 
 }

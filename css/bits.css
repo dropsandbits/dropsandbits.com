@@ -2,7 +2,7 @@
 
 body{margin: 0;background: rgba(255, 255, 255, 1.0)}
 .hero-image {
-  background-image: url("img/dropsandbits.jpg");
+  background-image: url("img/bits.png");
   background-color: rgba(255, 255, 255, 1.0);
   /*height: 500px; */
   background-position: center; /* Center the image */
